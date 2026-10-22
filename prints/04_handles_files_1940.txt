@@ -1,0 +1,9 @@
+$ /opt/vol3/bin/vol -q -f Investigation-2.raw windows.handles --pid 1940 2>/dev/null | grep -i -E 'File|Key' | cut -f2,6,7 | head -25
+tasksche.exe	0xf0003	CritSecOutOfMemoryEvent
+tasksche.exe	0x100020	\Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+tasksche.exe	0x20f003f	MACHINE
+tasksche.exe	0x100020	\Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615
+tasksche.exe	0x100001	\Device\KsecDD
+tasksche.exe	0x100020	\Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+tasksche.exe	0x20f003f	USER\S-1-5-21-602162358-764733703-1957994488-1003
+tasksche.exe	0x1f0003	userenv:  User Profile setup event

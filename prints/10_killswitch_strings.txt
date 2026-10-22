@@ -1,0 +1,2 @@
+$ strings -a Investigation-2.raw | grep -i -o -E 'http://www\.iuqerf[a-z0-9.]+' | sort -u
+http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com

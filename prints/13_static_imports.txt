@@ -1,0 +1,22 @@
+$ strings -n 6 wc_files/file.0x822d2f28.0x823a0940.ImageSectionObject.tasksche.exe.img | grep -E '^(Create|Crypt|Reg|Wnet|Internet|Open|Start)[A-Za-z]+$' | sort -u | head -30
+CreateDirectoryA
+CreateDirectoryW
+CreateFileA
+CreateFileW
+CreateProcessA
+CreateServiceA
+CryptAcquireContextA
+CryptDecrypt
+CryptDestroyKey
+CryptEncrypt
+CryptGenKey
+CryptImportKey
+CryptReleaseContext
+OpenMutexA
+OpenSCManagerA
+OpenServiceA
+RegCloseKey
+RegCreateKeyW
+RegQueryValueExA
+RegSetValueExA
+StartServiceA

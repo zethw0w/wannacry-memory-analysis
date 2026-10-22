@@ -1,0 +1,13 @@
+$ /opt/vol3/bin/vol -q -f Investigation-2.raw windows.dlllist --pid 1940 2>/dev/null | cut -f2,6 | head -12
+Volatility 3 Framework 2.28.2
+
+Process	Path
+
+tasksche.exe	C:\Intel\ivecuqmanpnirkt615\tasksche.exe
+tasksche.exe	C:\WINDOWS\system32\ntdll.dll
+tasksche.exe	C:\WINDOWS\system32\kernel32.dll
+tasksche.exe	C:\WINDOWS\system32\USER32.dll
+tasksche.exe	C:\WINDOWS\system32\GDI32.dll
+tasksche.exe	C:\WINDOWS\system32\ADVAPI32.dll
+tasksche.exe	C:\WINDOWS\system32\RPCRT4.dll
+tasksche.exe	C:\WINDOWS\system32\Secur32.dll

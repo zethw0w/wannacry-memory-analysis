@@ -1,0 +1,13 @@
+$ /opt/vol3/bin/vol -q -f Investigation-2.raw -o wc_files windows.dumpfiles --pid 1940 2>/dev/null | grep -i -E 'tasksche|wnry' | head; ls wc_files | head
+DataSectionObject	0x822d2f28	tasksche.exe	file.0x822d2f28.0x82246bd0.DataSectionObject.tasksche.exe.dat
+ImageSectionObject	0x822d2f28	tasksche.exe	file.0x822d2f28.0x823a0940.ImageSectionObject.tasksche.exe.img
+file.0x8221b3d8.0x82211970.ImageSectionObject.uxtheme.dll.img
+file.0x82221c28.0x8221cf30.ImageSectionObject.samlib.dll.img
+file.0x822324d0.0x82231ca0.ImageSectionObject.ntmarta.dll.img
+file.0x822324d0.0x822d35c0.DataSectionObject.ntmarta.dll.dat
+file.0x8225a858.0x822332b8.ImageSectionObject.rsaenh.dll.img
+file.0x8225a858.0x822d42b8.DataSectionObject.rsaenh.dll.dat
+file.0x822a1740.0x822bd448.ImageSectionObject.imm32.dll.img
+file.0x822bee00.0x82233d98.ImageSectionObject.comctl32.dll.img
+file.0x822d2f28.0x82246bd0.DataSectionObject.tasksche.exe.dat
+file.0x822d2f28.0x823a0940.ImageSectionObject.tasksche.exe.img

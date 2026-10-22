@@ -1,0 +1,8 @@
+$ ls -la wc_mem; file wc_mem/*
+total 164776
+drwxr-xr-x 2 root root     4096 Oct 21 22:14 .
+drwxr-xr-x 5 root root     4096 Oct 21 22:14 ..
+-rw------- 1 root root 85057536 Oct 21 22:14 pid.1940.dmp
+-rw------- 1 root root 83664896 Oct 21 22:14 pid.740.dmp
+wc_mem/pid.1940.dmp: data
+wc_mem/pid.740.dmp:  data

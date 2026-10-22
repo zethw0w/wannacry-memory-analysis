@@ -1,0 +1,12 @@
+$ strings -n 6 wc_mem/pid.1940.dmp | grep -E 'icacls \. /grant|attrib \+h|WNcry@2ol7|taskdl\.exe|taskse\.exe|tasksche\.exe' | sort -u | head -15
+"C:\Intel\ivecuqmanpnirkt615\tasksche.exe" 
+C:\Intel\ivecuqmanpnirkt615\tasksche.exe
+WNcry@2ol7
+attrib +h +s %C:\%s
+attrib +h .
+icacls . /grant Everyone:F /T /C /Q
+taskdl.exe
+tasksche.exe
+taskse.exe
+taskse.exe C:\Intel\ivecuqmanpnirkt615\@WanaDecryptor@.exe
+taskse.exed*

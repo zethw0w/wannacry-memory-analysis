@@ -1,0 +1,4 @@
+$ /opt/vol3/bin/vol -q -f Investigation-2.raw windows.info 2>/dev/null | grep -E 'NTBuildLab|SystemTime|CSDVersion'
+NTBuildLab	2600.xpsp_sp3_qfe.130704-0421
+CSDVersion	3
+SystemTime	2017-05-12 21:26:32+00:00

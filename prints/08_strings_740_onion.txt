@@ -1,0 +1,6 @@
+$ strings -n 6 wc_mem/pid.740.dmp | grep -o -E '[a-z2-7]{16}\.onion' | sort | uniq -c
+      1 57g7spgrzlojinas.onion
+      1 76jdd2ir2embyv47.onion
+      1 cwwnhwhlz52maqm7.onion
+      1 gx7ekbenv2riucmf.onion
+      1 xxlvbrloxvriy2c5.onion

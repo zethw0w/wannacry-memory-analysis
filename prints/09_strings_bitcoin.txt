@@ -1,0 +1,7 @@
+$ strings -n 6 wc_mem/pid.740.dmp wc_mem/pid.1940.dmp | grep -o -E '\b(1|3)[A-HJ-NP-Za-km-z1-9]{25,34}\b' | sort | uniq -c | sort -rn | head -8
+      5 12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw
+      4 3CBED48E24773D3448653DAB82AF72F1
+      4 1A76B2117E669AF4AA171DF85891F52D
+      2 1D54DC6274E9FE84CB9614BBACBF7B1A
+      2 13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94
+      1 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn

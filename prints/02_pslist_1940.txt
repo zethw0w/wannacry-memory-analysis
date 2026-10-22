@@ -1,0 +1,10 @@
+$ /opt/vol3/bin/vol -q -f Investigation-2.raw windows.psscan 2>/dev/null | cut -f1-3,9 | awk 'NR<4 || $2==1940 || $1==1940' | sort -t$'\t' -k4
+
+Volatility 3 Framework 2.28.2
+1940	1636	tasksche.exe	2017-05-12 21:22:14.000000 UTC
+740	1940	@WanaDecryptor@	2017-05-12 21:22:22.000000 UTC
+424	1940	@WanaDecryptor@	2017-05-12 21:25:52.000000 UTC
+536	1940	taskse.exe	2017-05-12 21:26:22.000000 UTC
+576	1940	@WanaDecryptor@	2017-05-12 21:26:22.000000 UTC
+860	1940	taskdl.exe	2017-05-12 21:26:23.000000 UTC
+PID	PPID	ImageFileName	CreateTime

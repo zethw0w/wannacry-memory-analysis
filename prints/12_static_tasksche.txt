@@ -1,0 +1,28 @@
+$ file wc_files/file.0x822d2f28.0x823a0940.ImageSectionObject.tasksche.exe.img; sha256sum wc_files/file.0x822d2f28.0x823a0940.ImageSectionObject.tasksche.exe.img; strings -n 6 wc_files/file.0x822d2f28.0x823a0940.ImageSectionObject.tasksche.exe.img | grep -E 'wnry|WNcry|icacls|attrib|Mutex|tasksche|WanaCrypt0r' | sort -u | head -25
+wc_files/file.0x822d2f28.0x823a0940.ImageSectionObject.tasksche.exe.img: PE32 executable (GUI) Intel 80386, for MS Windows, 4 sections
+ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa  wc_files/file.0x822d2f28.0x823a0940.ImageSectionObject.tasksche.exe.img
+Global\MsWinZonesCacheCounterMutexA
+OpenMutexA
+WNcry@2ol7
+attrib +h .
+b.wnry
+b.wnryP8
+c.wnry
+c.wnry%
+icacls . /grant Everyone:F /T /C /Q
+msg/m_bulgarian.wnry
+msg/m_chinese (simplified).wnry
+msg/m_chinese (simplified).wnryR9
+msg/m_chinese (traditional).wnry
+msg/m_croatian.wnry
+msg/m_czech.wnry
+msg/m_czech.wnryn
+msg/m_danish.wnry
+msg/m_dutch.wnry
+msg/m_dutch.wnry9
+msg/m_english.wnry
+msg/m_english.wnryF
+msg/m_filipino.wnry
+msg/m_finnish.wnry
+msg/m_finnish.wnry~
+msg/m_french.wnry
